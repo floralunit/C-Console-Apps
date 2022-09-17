@@ -18,28 +18,17 @@ char* GetDec(int num)
 {
   char *numString;
   switch (num) {
-      case 0: numString = "десять ";
-      break;
-      case 1: numString = "одинадцать ";
-      break;
-      case 2: numString = "двенадцать ";
-      break;
-      case 3: numString = "тринадцать ";
-      break;
-      case 4: numString = "четырнадцать ";
-      break;
-      case 5: numString = "пятнадцать ";
-      break;
-      case 6: numString = "шестнадцать ";
-      break;
-      case 7: numString = "семнадцать ";
-      break;
-      case 8: numString = "восемнадцать ";
-      break;
-      case 9: numString = "девятнадцать ";
-      break;
-      default:
-      break;
+      case 0: numString = "десять "; break;
+      case 1: numString = "одинадцать "; break;
+      case 2: numString = "двенадцать "; break;
+      case 3: numString = "тринадцать "; break;
+      case 4: numString = "четырнадцать "; break;
+      case 5: numString = "пятнадцать "; break;
+      case 6: numString = "шестнадцать "; break;
+      case 7: numString = "семнадцать "; break;
+      case 8: numString = "восемнадцать "; break;
+      case 9: numString = "девятнадцать "; break;
+      default: break;
 }
   return numString;
 }
