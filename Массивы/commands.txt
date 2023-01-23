@@ -1,0 +1,9 @@
+gcc -c -Wall -g -o one_dim_arr_temp one_dim_arr_temp.c
+gcc -c -Wall -g -o one_dim_arr_func one_dim_arr_func.c
+gcc -Wall -g -o one_dim one_dim_arr_temp one_dim_arr_func
+./one_dim
+
+gcc -c -Wall -g -o dynamic_arr_func dynamic_arr_func.c
+gcc -c -Wall -g -o dynamic_arr_temp dynamic_arr_temp.c
+gcc -Wall -g -o multi_dim dynamic_arr_func dynamic_arr_temp
+./multi_dim
